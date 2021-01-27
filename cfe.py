@@ -1,10 +1,9 @@
-#ya se que esto se va a borrar 
 import os
 from datetime import datetime
 from datetime import date
 #huamos a guachar que pása jajaja
 date=date.today()
-
+#ya se sabse qie esyao dsera aborrasd
 
 a=0
 
