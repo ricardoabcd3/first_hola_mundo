@@ -1,3 +1,4 @@
+#ya se que esto se va a borrar 
 import os
 from datetime import datetime
 from datetime import date
