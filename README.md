@@ -5,8 +5,7 @@ Un blog increíble para el curso de Git y Github de Platzi
 
 
 
-
-
-#this only a example
-#otro comit sin sestido
 experimeto 1
+
+
+
