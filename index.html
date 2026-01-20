@@ -1,26 +1,55 @@
-<html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi primera pagina</title>
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      display:grid;
+      grid-template-rows: 1fr auto;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:#fff;
+      color:#111;
+    }
+    main{
+      display:grid;
+      place-items:center;
+      text-align:center;
+      padding:24px;
+    }
+    h1{
+      margin:0 0 12px;
+      font-size:clamp(32px, 5vw, 56px);
+      font-weight:700;
+      letter-spacing:-0.02em;
+    }
+    p{
+      margin:0;
+      font-size:clamp(18px, 2.2vw, 22px);
+      line-height:1.4;
+      color:#333;
+    }
+    footer{
+      text-align:center;
+      padding:16px;
+      font-size:14px;
+      color:#666;
+      border-top:1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div>
+      <h1>mi primera pagina</h1>
+      <p>hola mundo soy liz</p>
+    </div>
+  </main>
 
-    <head>
-        <title>Bienvenido a Hyperblog </title>
-        <link rel="stylesheet" href="css/estilos.css" />
-    </head>
-    <body>
-        <div id="container">
-            <div id="cabecera">
-                <img id="logo" src="imagenes/dragon.png" />
-                Hyperblog
-                <span id="tagline">Tu blog de cabecera</span>
-            </div>
-            <div id="post">
-                <h1>Este es el título atractivo e interesante del post</h1>
-                <p>Y este es el p&aacute;rrafo de inicio donde vamos a explicar las cosas incre&iacute;bles que se pueden hacer con ramas</p>
-                <p>Los blogs son la mejor forma de compartir información y tus ideas. Mucho mas que ir a conferencias o salir en Youtube. Excepto si eres un rockstar. Pero estadísticamente no lo eres.... por ahora.</p>
-                <p>Suscribete y dale like</p>
-            </div>
-	    <div id="footer">
-		Hecho con amor en ricardo  para el mundo con doble amor &lt;3
-	    </div>
-        </div>
-    </body>
+  <footer>
+    ©️ 2026 · Liz
+  </footer>
+</body>
 </html>
-
